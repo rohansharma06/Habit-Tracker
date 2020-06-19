@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+/* ---- heading ---- */
+.container{
+    width: 450px;
+    height: 550px;
+    /* border: 2px solid black; */
+    margin: 30px auto;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #b15151;
+    border-radius: 4px;
+}
+.heading span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    font-size: 3rem;
+    font-weight: 2rem;
+   font-family: fantasy;
+    /* border: 1px solid black; */
+}
+.gitImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 20%;
+
+    position: relative;
+    /* top: 10px; */
+    /* border: 1px solid black; */
+}
+.gitImage img{
+    width: 35px;
+    height: 35px;
+}
+/* ---- input ---- */
+form{
+    margin-top: 10px;
+}
+.takeInput{
+    padding: 5px 5px 5px 10px;
+}
+#habitInput{
+    width: 250px;
+    height: 25px;
+}
+#timeInput{
+    width: 100px;
+    height: 27px;
+}
+#btn{
+    width: 50px;
+    height: 30px;
+    background-color: #22af22;
+}
+#btn i{
+    color: white;
+}
+#btn:hover{
+    cursor: pointer;
+}
+/* ---- display habit ---- */
+ul{
+    list-style: none;
+    padding: 0;
+    height: 400px;
+    overflow-y: auto;
+}
+.habitList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    margin-bottom: 10px;
+}
+.nail{
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+}
+.name{
+    width: 50%;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+}
+.time{
+    width: 10%;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+}
+.del{
+
+    padding: 5px 5px 5px 5px;
+}

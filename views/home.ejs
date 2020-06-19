@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <%= title %></title>
+
+    <link rel="stylesheet" href="css/home.css">
+    <script src="https://kit.fontawesome.com/95749693e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- ---- container/wraper ---- -->
+    <div class="container">
+
+        <!-- ---- heading---- -->
+        <div class="heading">
+            <span>Habit Tracker</span>
+            <a class="gitImage" href="#">
+                <img  src="images/git.png">
+            </a>
+        </div>
+
+        <!-- ---- input section---- -->
+        <form action="/addHabit" method="POST">
+            <div class="takeInput">
+                <input id="habitInput" type="text" name="habitName" placeholder="Add habit?" required>
+                <input id="timeInput" type="time" name="time" required>
+                <button id="btn" type="submit" >
+                    <i class="fas fa-plus" ></i>
+                </button>
+            </div>
+        </form>
+
+        <!-- ---- habits ---- -->
+        <ul>
+            <li class="habitList">
+                <i class="fas fa-thumbtack nail"></i>
+                <span class="name">Habit Name</span>
+                <span class="time">3:00</span>
+                <i class="fas fa-trash-alt del"></i>
+            </li>
+
+        </ul>
+    </div>
+
+</body>
+</html>
