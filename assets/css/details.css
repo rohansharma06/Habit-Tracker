@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    /* background-color: aqua; */
+}
+/* ---- heading ---- */
+.container{
+    /* border: 1px solid black; */
+}
+.heading a{
+    text-decoration: none;
+}
+.back{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 20%;
+    color: black;
+}
+.back i{
+    margin-top: 5px;
+    padding: 5px 5px 5px 5px;
+    font-size: 1.5rem;
+}
+/* ---- display details of habit --- */
+.top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+}
+.namee{
+    width: 80%;
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+}
+.timee{
+    width: 20%;
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+}
+hr{
+    width: 400px;
+    padding: 0.5px 5px 0.5px 5px;
+    color: grey;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

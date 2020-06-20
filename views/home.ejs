@@ -33,12 +33,26 @@
 
         <!-- ---- habits ---- -->
         <ul>
-            <li class="habitList">
-                <i class="fas fa-thumbtack nail"></i>
-                <span class="name">Habit Name</span>
-                <span class="time">3:00</span>
-                <i class="fas fa-trash-alt del"></i>
-            </li>
+            <% if(allHabits.length == 0) { %> 
+                <li class="warning">
+                    No habit in the bucket!
+                </li>
+            <% } else {%>
+
+                <% for (let i of allHabits) { %>
+                    <li class="habitList">
+                        <i class="fas fa-thumbtack nail"></i>
+                        <a href="/details/?id=<%= i.id %>">
+                            <span class="name"> <%= i.name %> </span>
+                        </a>
+                        <span class="time"><%= i.time %></span>
+                        <a href="/delete/?id=<%= i.id%>">
+                            <i class="fas fa-trash-alt del"></i>
+                        </a>
+                        
+                    </li>
+                <% } %>
+            <% } %>
 
         </ul>
     </div>

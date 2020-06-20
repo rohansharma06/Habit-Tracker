@@ -92,6 +92,13 @@ ul{
     font-size: 25px;
     padding: 5px 5px 5px 5px;
 }
+.habitList a{
+    text-decoration: none;
+    color: black;
+}
+.habitList a:hover{
+    color: #b15151;
+}
 .time{
     width: 10%;
     font-size: 20px;
@@ -100,4 +107,9 @@ ul{
 .del{
 
     padding: 5px 5px 5px 5px;
+}
+.warning{
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    color: red;
 }
