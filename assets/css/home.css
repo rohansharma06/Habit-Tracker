@@ -9,6 +9,9 @@ body{
     height: 550px;
     /* border: 2px solid black; */
     margin: 30px auto;
+
+    /* box-shadow: 10px 10px 5px gray; */
+    box-shadow: 5px 5px 25px gray;
 }
 .heading{
     display: flex;
@@ -77,39 +80,62 @@ ul{
 .habitList{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     flex-wrap: nowrap;
+    width: 430px;
     border-left: 2px solid gray;
     border-right: 2px solid gray;
     margin-bottom: 10px;
+    margin-left: 5px;
 }
 .nail{
-    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+
     font-size: 20px;
+    padding: 5px 5px 5px 5px;
 }
-.name{
-    width: 50%;
+.habit-name{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    text-decoration: none;
+    color: gray;
+    overflow: hidden;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.habit-name span{
     font-size: 25px;
     padding: 5px 5px 5px 5px;
+    
 }
-.habitList a{
-    text-decoration: none;
-    color: black;
-}
-.habitList a:hover{
+.habitList .habit-name:hover{
     color: #b15151;
+    
 }
 .time{
-    width: 10%;
-    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
     padding: 5px 5px 5px 5px;
+    
+    font-size: 20px;
+    
 }
 .del{
-
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    justify-content: flex-end;
     padding: 5px 5px 5px 5px;
+    
+}
+.del:hover{
+    color: red;
 }
 .warning{
-    padding: 5px 5px 5px 5px;
+    /* padding: 5px 5px 5px 5px; */
     text-align: center;
     color: red;
 }

@@ -1,10 +1,10 @@
 body{
     padding: 0;
-    /* background-color: aqua; */
+    margin: 0;
 }
 /* ---- heading ---- */
-.container{
-    /* border: 1px solid black; */
+.heading{
+    align-items: center;
 }
 .heading a{
     text-decoration: none;
@@ -14,12 +14,15 @@ body{
     flex-direction: row;
     justify-content: flex-end;
     width: 20%;
-    color: black;
 }
 .back i{
     margin-top: 5px;
     padding: 5px 5px 5px 5px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    color: black;
+}
+.back i:hover{
+    color: #28a745;
 }
 /* ---- display details of habit --- */
 .top{
@@ -31,11 +34,16 @@ body{
 .namee{
     width: 80%;
     font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #14612c;
     padding: 5px 5px 5px 5px;
 }
 .timee{
     width: 20%;
     font-size: 30px;
+    font-family: fantasy;
+    color: #56694b;
     padding: 5px 5px 5px 5px;
 }
 hr{
