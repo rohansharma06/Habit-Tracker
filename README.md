@@ -1,14 +1,20 @@
 # Habit-Tracker
-As some greate personality said: `What gets measured gets managed`. So here we have an habit tracking application, which track you daily habit and also see track of 6 previous day.
+As some greate personality said: `What gets measured gets managed`. So here we have an habit tracking application, which track you daily habit and user can also see track of previous six day.
 
 ## Functionality
-- Home Page:
-The home page have two input add-habit and time to do that. It display all the the habits which the user add to it tracker. If user dont want to track that habit he can easily deleate it from homepage. 
+> Home Page:
+>> The home page have two input add-habit and time to do that. 
+>> On clicking submit (+) button, habit is store into database.
+>> It display all the the habits which the user whic he add to tracker. 
+>> If user dont want to track that habit he can easily deleate it from homepage.
+>> On clicking habit user redirect to days track page.
 
 ![Homepage](/assets/images/homepage.JPG)
 
-- Days Track Page:
-The Track page have status of current and previous five days, for every habit we have three status None, Incomplete, Complete. User can change status from this page. 
+> Days Track Page:
+>> This page have status of current and previous five days.
+>> For every habit we have three status None, Incomplete, Complete.
+>> User can change status from this page. 
 
 ![DaysTrack](/assets/images/details.JPG)
 
@@ -26,7 +32,7 @@ The Track page have status of current and previous five days, for every habit we
 1. Clone the project.
 2. Go to folder.
 3. Run following command.
-    ```npm install express
+   ``` npm install express
        npm install ejs
        npm install mongoose ```
 4. Connect to mongodb.
