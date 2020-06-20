@@ -3,7 +3,7 @@ As some greate personality said: `What gets measured gets managed`. So here we h
 
 ## Functionality
 > Home Page:
->> The home page have two input add-habit and time to do that. 
+>> The home page have two input add-habit and time to do that 
 >> On clicking submit (+) button, habit is store into database.
 >> It display all the the habits which the user whic he add to tracker. 
 >> If user dont want to track that habit he can easily deleate it from homepage.
@@ -32,9 +32,11 @@ As some greate personality said: `What gets measured gets managed`. So here we h
 1. Clone the project.
 2. Go to folder.
 3. Run following command.
-   ``` npm install express
-       npm install ejs
-       npm install mongoose ```
+    ``` 
+    npm install express
+    npm install ejs
+    npm install mongoose 
+    ```
 4. Connect to mongodb.
 5. run command npm start
 6. Go to https://localhost/8000 to use the application.
