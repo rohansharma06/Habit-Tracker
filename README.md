@@ -3,18 +3,18 @@ As some greate personality said: `What gets measured gets managed`. So here we h
 
 ## Functionality
 ` Home Page: `
->The home page have two input add-habit and time to do that 
->On clicking submit (+) button, habit is store into database.
->It display all the the habits which the user whic he add to tracker. 
->If user dont want to track that habit he can easily deleate it from homepage.
->On clicking habit user redirect to days track page.
+>> The home page have two input add-habit and time to do that 
+>> On clicking submit (+) button, habit is store into database.
+>> It display all the the habits which the user whic he add to tracker. 
+>> If user dont want to track that habit he can easily deleate it from homepage.
+>> On clicking habit user redirect to days track page.
 
 ![Homepage](/assets/images/homepage.JPG)
 
 ` Days Track Page: `
-> This page have status of current and previous five days.
-> For every habit we have three status None, Incomplete, Complete.
-> User can change status from this page. 
+>> This page have status of current and previous five days.
+>> For every habit we have three status None, Incomplete, Complete.
+>> User can change status from this page. 
 
 ![DaysTrack](/assets/images/details.JPG)
 
