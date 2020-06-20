@@ -2,20 +2,15 @@ const express = require('express');
 const port = 8000;
 const app = express();
 
-
+//---- to parse url
 app.use(express.urlencoded());
 
 //---- accessing satic folder 
 app.use(express.static('assets'));
 
-app.set('home extractStyle',true);
-app.set('habitDetails extractStyle',true);
-
 //---- use ejs template
 app.set('view engine', 'ejs');
 app.set('views', './views');
-
-
 
 //---- database
 const db = require('./config/mongoose');
@@ -25,7 +20,7 @@ const db = require('./config/mongoose');
 app.use('/',require('./routes'));
 
 
-
+//---- starting up server
 app.listen(port, function(err){
     if(err){
         console.log("Error found",err);

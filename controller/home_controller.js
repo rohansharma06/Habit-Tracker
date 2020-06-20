@@ -1,5 +1,6 @@
 const Habit = require('../models/habit');
 
+//---- find all habit and show it to home page
 module.exports.home = function(req,res){
 
     Habit.find({}, function(err,allhabits){
