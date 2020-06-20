@@ -12,9 +12,9 @@ As some greate personality said: `What gets measured gets managed`. So here we h
 ![Homepage](/assets/images/homepage.JPG)
 
 ` Days Track Page: `
->This page have status of current and previous five days.
->For every habit we have three status None, Incomplete, Complete.
->User can change status from this page. 
+> This page have status of current and previous five days.
+> For every habit we have three status None, Incomplete, Complete.
+> User can change status from this page. 
 
 ![DaysTrack](/assets/images/details.JPG)
 
@@ -38,7 +38,7 @@ As some greate personality said: `What gets measured gets managed`. So here we h
     npm install mongoose 
     ```
 4. Connect to mongodb.
-5. run command npm start
+5. Run command: `npm start`
 6. Go to https://localhost/8000 to use the application.
 
 
